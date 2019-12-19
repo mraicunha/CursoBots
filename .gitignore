@@ -1,0 +1,6 @@
+.env
+*.log
+*.err
+*.lock
+
+node_modules

@@ -1,0 +1,9 @@
+{
+  "name": "cursoBot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "3.17.3"
+  }
+}
