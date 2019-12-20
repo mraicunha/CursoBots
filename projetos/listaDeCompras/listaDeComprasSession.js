@@ -5,7 +5,7 @@ const Markup = require('telegraf/markup')
 const session = require('telegraf/session')
 const bot = new Telegraf(env.token)
 
-
+bot.use(session())
 const gerarBotoes = () => Extra.markup(
   Markup.inlineKeyboard(
     lista.map(item => Markup.callbackButton(item, `delete ${item}`)),

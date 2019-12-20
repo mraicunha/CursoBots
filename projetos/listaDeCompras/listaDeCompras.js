@@ -6,7 +6,7 @@ const bot = new Telegraf(env.token)
 
 let lista = []
 
-const gerarBotoes = () => Extra.markup(
+const gerarBotoes = lista => Extra.markup(
   Markup.inlineKeyboard(
     lista.map(item => Markup.callbackButton(item, `delete ${item}`)),
     { columns: 3 }
