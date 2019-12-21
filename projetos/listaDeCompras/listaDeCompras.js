@@ -21,12 +21,12 @@ bot.start(async ctx => {
 
 bot.on('text', ctx => {
   lista.push(ctx.update.message.text)
-  ctx.reply(`${ctx.update.message.text} adicionado!`, gerarBotoes())
+  ctx.reply(`${ctx.update.message.text} adicionado!`, gerarBotoes(lista))
 })
 
 bot.action(/delete (.+)/, ctx => {
   lista = lista.filter(item => item !== ctx.match[1])
-  ctx.reply(`${ctx.match[1]} deletado!`, gerarBotoes())
+  ctx.reply(`${ctx.match[1]} deletado!`, gerarBotoes(lista))
 })
 
 bot.startPolling()
