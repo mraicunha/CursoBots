@@ -1,0 +1,18 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Gravar as aulas do curso de bot",
+      "dt_previsao": "2019-12-26",
+      "dt_conclusao": null,
+      "observacao": "Lembrar de verificar as baterias dos equipamentos"
+    },
+    {
+      "id": 2,
+      "descricao": "Editat as aulas do curso de bot",
+      "dt_previsao": "2019-12-28",
+      "dt_conclusao": null,
+      "observacao": "Não esquecer de editar as cores"
+    }
+  ]
+}
